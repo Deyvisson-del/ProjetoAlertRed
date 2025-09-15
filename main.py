@@ -9,7 +9,7 @@ def enviar_mensagem(numero, mensagem, minutos_espera=1):
     # Espera alguns segundos para evitar conflito de abas
     time.sleep(15)  # Ajuste conforme o tempo que o WhatsApp Web demora para abrir
 
-mensagem = "Estou criando um aviso via whatsapp afim de automatizar e notificar os horários de remédios de Tio Josias \nFavor não responder"
+mensagem = "Tô oculpado agora, se for urgente me liga."
 
 numeros = ["+5581994810999", "+5581985027060"]
 
