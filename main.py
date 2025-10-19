@@ -14,6 +14,5 @@ mensagem = "Tô oculpado agora, se for urgente me liga."
 numeros = ["+5581994810999", "+5581985027060"]
 
 for numero in numeros:
-    # Repetir 5 vezes para cada número
     for i in range(5):
         enviar_mensagem(numero, mensagem, minutos_espera=(i+1)*1)  # espaça 1 minuto cada envio
